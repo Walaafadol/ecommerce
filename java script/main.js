@@ -7,3 +7,13 @@ function openMenu() {
 function closeMenu() {
   links.style.right = "-300px";
 }
+// single image product
+let mainImage = document.getElementById("show");
+let smallImage = document.getElementsByClassName("s-image");
+
+for (let i = 0; i < smallImage.length; i++) {
+  smallImage[i].onclick = function () {
+    mainImage.src = smallImage[i].src;
+  };
+}
+ 
