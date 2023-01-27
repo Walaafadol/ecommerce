@@ -1,1 +1,251 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="header" id="header">
+      <img src="./images/logo.png" />
+      <ul id="links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="shop.html" class="active">shop</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li>
+          <a href="cart.html">
+            <i id="lg-bag" class="fas fa-shopping-bag"></i
+          ></a>
+        </li>
+
+        <a href="#">
+          <i onclick="closeMenu()" id="close" class="fas fa-times"></i
+        ></a>
+      </ul>
+
+      <div class="mobile">
+        <a href="cart.html"> <i class="fas fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent" onclick="openMenu()"></i>
+      </div>
+    </div>
+    <!-- start single produc******* -->
+    <div class="single-product section-padding">
+      <div class="single-pro-image">
+        <div class="selected-image">
+          <img src="./images/f1.jpg" width="100%" id="show" />
+        </div>
+        <div class="images">
+          <div class="small-image">
+            <img src="./images/f1.jpg" class="s-image" />
+          </div>
+          <div class="small-image">
+            <img src="./images/f2.jpg" class="s-image" />
+          </div>
+          <div class="small-image">
+            <img src="./images/f3.jpg" class="s-image" />
+          </div>
+          <div class="small-image">
+            <img src="./images/f4.jpg" class="s-image" />
+          </div>
+        </div>
+      </div>
+      <div class="pro-details">
+        <h4>home / t-shirt</h4>
+        <h3>men's fashion t shirt</h3>
+        <h2>$139.00</h2>
+        <select>
+          <option>select size</option>
+          <option>xxl</option>
+          <option>xl</option>
+          <option>small</option>
+          <option>l</option>
+        </select>
+        <input type="number" value="1" />
+        <button>add to cart</button>
+        <h2>product details</h2>
+        <p>
+          the gldon ultra cotton t-shirt is made from a substantial 6.0 oz.per
+          sq.yd fabric constructed from 100% cotton . this classic ht preshrunk
+          jersey knit provides unmatched comfort with each wear . featuring a
+          topedn neck and shoulder . and aseamless double-needle collar . and
+          available in arange of color . it is offer it in all the ultmate head.
+        </p>
+      </div>
+    </div>
+    <div class="products section-padding">
+      <h2>featured products</h2>
+      <p>summer collection new morden design</p>
+      <div class="container-products">
+        <div class="pro">
+          <img src="./images/n1.jpg" />
+          <div class="marka">
+            <span>adidas</span>
+            <h5>cartoon astronaut t-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a> <i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/n2.jpg" />
+          <div class="marka">
+            <span>adidas</span>
+            <h5>cartoon astronaut t-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a> <i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/n3.jpg" />
+          <div class="marka">
+            <span>adidas</span>
+            <h5>cartoon astronaut t-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a> <i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/n4.jpg" />
+          <div class="marka">
+            <span>adidas</span>
+            <h5>cartoon astronaut t-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a> <i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- start letter----- -->
+    <div class="letter section-margin">
+      <div class="text">
+        <h2>sign up for newsletters</h2>
+        <p>
+          get email updates about our latest shop and
+          <span>special offers .</span>
+        </p>
+      </div>
+      <div class="form">
+        <form>
+          <input type="email" placeholder="your email address" />
+          <button type="submit">sign up</button>
+        </form>
+      </div>
+    </div>
+    <!-- start  footer----------- -->
+    <div class="footer section-padding">
+      <div class="info">
+        <div class="foot-one">
+          <img src="../ECOMMERCE WEBSITE/images/logo.png" />
+          <h4>contact</h4>
+
+          <div class="text first">
+            <h4>address :</h4>
+            <p>562 rood street 32 san francico</p>
+          </div>
+          <div class="text">
+            <h4>phonen :</h4>
+            <p>+0123456789</p>
+          </div>
+
+          <div class="text">
+            <h4>hours :</h4>
+            <p>10:00.18:00 mon-sat</p>
+          </div>
+          <div class="text last">
+            <h4>follow us</h4>
+          </div>
+          <ul class="social">
+            <li>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-pinterest-p"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="foot-two">
+          <h4>about</h4>
+          <ul>
+            <li><a href="">about us</a></li>
+            <li><a href="">delivery information</a></li>
+            <li><a href="">privacy policy</a></li>
+            <li><a href="">term and conditions</a></li>
+            <li><a href="">contact us</a></li>
+          </ul>
+        </div>
+        <div class="foot-two">
+          <h4>my acount</h4>
+          <ul>
+            <li><a href="">sign in</a></li>
+            <li><a href="">view cart</a></li>
+            <li><a href="">my wishlist</a></li>
+            <li><a href="">track my order</a></li>
+            <li><a href="">help</a></li>
+          </ul>
+        </div>
+        <div class="foot-three">
+          <h4>install app</h4>
+
+          <p>from app store or google play</p>
+          <div class="apps">
+            <img src="./images/app.jpg" />
+            <img src="./images/play.jpg" />
+          </div>
+          <p class="payment">secured payment</p>
+          <div class="visa-cards">
+            <img src="./images/pay.png" />
+          </div>
+        </div>
+      </div>
+      <div class="reserved">&copy; 2022 all right reserved</div>
+    </div>
+    <script src="./java script/main.js"></script>
+  </body>
+</html>
