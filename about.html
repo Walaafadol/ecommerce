@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="header" id="header">
+      <img src="./images/logo.png" />
+      <ul id="links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="shop.html">shop</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="about.html" class="active"> about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li>
+          <a href="cart.html">
+            <i id="lg-bag" class="fas fa-shopping-bag"></i
+          ></a>
+        </li>
+
+        <a href="#">
+          <i onclick="closeMenu()" id="close" class="fas fa-times"></i
+        ></a>
+      </ul>
+
+      <div class="mobile">
+        <a href="cart.html"> <i class="fas fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent" onclick="openMenu()"></i>
+      </div>
+    </div>
+    <div class="shop about-header">
+      <h2>#knowus</h2>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <!-- start about section -->
+    <div class="about-section section-padding">
+      <div class="image-about">
+        <img src="./images/a6about.jpg" />
+      </div>
+      <div class="about-details">
+        <h2>who we are ?</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
+          ducimus voluptate ab, nisi accusamus commodi excepturi cupiditate
+          dolorum ullam suscipit quos olorum ullam suscipit quos neque placeat
+          doloremque voluptates perferendis nobis! Laboriosam, necessitatibus
+          voluptatesolorum ullam suscipit quos neque placeat doloremque
+          voluptates perferendis nobis! Laboriosam, necessitatibus
+          voluptatesneque placeat doloremque voluptates perferendis nobis!
+          Laboriosam, necessitatibus voluptates.
+        </p>
+        <abbr title=""
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          doloremque cum omnis!</abbr
+        >
+        <br /><br />
+        <marquee background-color="#ccc" loop="-1" scrollamount="5" width="100%"
+          >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+          nemo?
+        </marquee>
+      </div>
+    </div>
+    <div class="video-about">
+      <h2>download our <a href="">app</a></h2>
+      <div class="video">
+        <video autoplay muted loop src="./images/1.mp4"></video>
+      </div>
+    </div>
+    <!-- fetures -->
+    <div class="features section-padding">
+      <div class="cont-features">
+        <img src="./images/f1.png" />
+        <h6>free shopping</h6>
+      </div>
+      <div class="cont-features">
+        <img src="./images/f2.png" />
+        <h6>online order</h6>
+      </div>
+      <div class="cont-features">
+        <img src="./images/f3.png" />
+        <h6>save money</h6>
+      </div>
+      <div class="cont-features">
+        <img src="./images/f4.png" />
+        <h6>promotions</h6>
+      </div>
+      <div class="cont-features">
+        <img src="./images/f5.png" />
+        <h6>happy sell</h6>
+      </div>
+      <div class="cont-features">
+        <img src="./images/f6.png" />
+        <h6>f24/7 support</h6>
+      </div>
+    </div>
+    <!-- start letter----- -->
+    <div class="letter section-margin">
+      <div class="text">
+        <h2>sign up for newsletters</h2>
+        <p>
+          get email updates about our latest shop and
+          <span>special offers .</span>
+        </p>
+      </div>
+      <div class="form">
+        <form>
+          <input type="email" placeholder="your email address" />
+          <button type="submit">sign up</button>
+        </form>
+      </div>
+    </div>
+    <!-- start  footer----------- -->
+    <div class="footer section-padding">
+      <div class="info">
+        <div class="foot-one">
+          <img src="../ECOMMERCE WEBSITE/images/logo.png" />
+          <h4>contact</h4>
+
+          <div class="text first">
+            <h4>address :</h4>
+            <p>562 rood street 32 san francico</p>
+          </div>
+          <div class="text">
+            <h4>phonen :</h4>
+            <p>+0123456789</p>
+          </div>
+
+          <div class="text">
+            <h4>hours :</h4>
+            <p>10:00.18:00 mon-sat</p>
+          </div>
+          <div class="text last">
+            <h4>follow us</h4>
+          </div>
+          <ul class="social">
+            <li>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-pinterest-p"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="foot-two">
+          <h4>about</h4>
+          <ul>
+            <li><a href="">about us</a></li>
+            <li><a href="">delivery information</a></li>
+            <li><a href="">privacy policy</a></li>
+            <li><a href="">term and conditions</a></li>
+            <li><a href="">contact us</a></li>
+          </ul>
+        </div>
+        <div class="foot-two">
+          <h4>my acount</h4>
+          <ul>
+            <li><a href="">sign in</a></li>
+            <li><a href="">view cart</a></li>
+            <li><a href="">my wishlist</a></li>
+            <li><a href="">track my order</a></li>
+            <li><a href="">help</a></li>
+          </ul>
+        </div>
+        <div class="foot-three">
+          <h4>install app</h4>
+
+          <p>from app store or google play</p>
+          <div class="apps">
+            <img src="./images/app.jpg" />
+            <img src="./images/play.jpg" />
+          </div>
+          <p class="payment">secured payment</p>
+          <div class="visa-cards">
+            <img src="./images/pay.png" />
+          </div>
+        </div>
+      </div>
+      <div class="reserved">&copy; 2022 all right reserved</div>
+    </div>
+  </body>
+</html>
