@@ -1146,3 +1146,135 @@ start products  */
   
   
 }
+  
+  * start cart page**************** */
+.table {
+  overflow-x: auto;
+}
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.table table img {
+  width: 70px;
+}
+.table table thead td {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 15px 0;
+}
+.table table thead {
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+}
+.table table tbody td {
+  padding-top: 15px;
+  color: #777;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.table tr td:nth-child(1) {
+  width: 100px;
+  text-align: center;
+}
+.table tr td:nth-child(2) {
+  width: 150px;
+  text-align: center;
+}
+
+.table tr td:nth-child(4),
+.table tr td:nth-child(5),
+.table tr td:nth-child(6) {
+  width: 200px;
+  text-align: center;
+}
+.table tr td:nth-child(3) {
+  width: 250px;
+  text-align: center;
+}
+.table tr td input {
+  width: 40px;
+  padding: 10px 5px 10px 10px;
+}
+.apply {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.input-coupon {
+  width: 50%;
+}
+.input-coupon h3,
+.totals h3 {
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.input-coupon input {
+  outline: none;
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+.input-coupon button {
+  background-color: #088178;
+  color: #fff;
+  display: inline;
+  padding: 10px 12px;
+}
+.apply .totals {
+  width: 50%;
+  border: 1px solid #ccc;
+  padding: 25px;
+}
+.apply .totals table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.apply .totals table tr td {
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  padding: 5px 0 5px 5px;
+  text-transform: capitalize;
+  font-size: 13px;
+  color: #777;
+}
+.apply .totals table tfoot td {
+  color: #222;
+  font-weight: 700;
+}
+.apply .totals button {
+  background-color: #088178;
+  color: #fff;
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .apply {
+    display: flex;
+    flex-direction: column;
+   
+    margin-bottom: 30px;
+  }
+  .input-coupon {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .input-coupon input {
+    padding: 10px;
+    width: 70%;
+  }
+  .apply .totals {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
