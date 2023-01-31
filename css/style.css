@@ -1079,6 +1079,7 @@ start products  */
 /* start about pageeeeeeeeeeeeee */
 .about-header {
   background-image: url(../images/bannerabout.png);
+  background-repeat: cover;
 }
 .about-section {
   display: flex;
@@ -1116,8 +1117,9 @@ start products  */
 }
 
 @media (max-width: 767px) {
-  .about-header{
-    text-align:center
+  .about-header {
+    text-align: center;
+  }
   .about-section {
     display: flex;
     flex-direction: column;
@@ -1143,11 +1145,166 @@ start products  */
   .about-details h2 {
     font-size: 30px;
   }
-  
-  
 }
-  
-  * start cart page**************** */
+/* start contact page********** */
+.contact-header {
+  background-image: url(../images/bannerabout.png);
+}
+@media (max-width: 767px) {
+  .contact-header {
+    text-align: center;
+  }
+}
+.contact-det {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-information {
+  width: 40%;
+}
+.contact-information h4,
+.form-details form h4 {
+  font-size: 14px;
+  color: #777;
+  text-transform: capitalize;
+}
+.contact-information h2,
+.form-details form h2 {
+  font-size: 25px;
+  line-height: 1.2;
+  margin: 12px 0;
+  font-weight: 800;
+}
+.contact-information h3 {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.con-info {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.con-info i {
+  font-size: 14px;
+  margin-right: 22px;
+  color: #777;
+}
+.con-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+.map {
+  width: 55%;
+  height: 400px;
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+.form-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  margin: 30px;
+  border: 1px solid #1e1e1e;
+}
+.form-details form {
+  width: 62%;
+}
+.form-details form input,
+.form-details textarea {
+  outline: none;
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #1e1e1e;
+  margin-bottom: 20px;
+  display: block;
+  border-radius: 4px;
+}
+::placeholder {
+  text-transform: capitalize;
+  color: #777;
+}
+.form-details textarea {
+  height: 150px;
+  resize: none;
+}
+.form-details h2 {
+  padding-bottom: 12px;
+}
+.form-details button {
+  background-color: #088178;
+  color: #fff;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.form-details button:hover {
+  background-color: #465b52;
+}
+.form-details .people {
+  width: 32%;
+}
+.form-details .people div {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.form-details .people div img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.form-details .people div p {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+.form-details .people div span {
+  display: block;
+  font-weight: 700;
+  color: #222;
+}
+@media (max-width: 767px) {
+  .contact-det {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .contact-det .contact-information {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-det .map {
+    width: 100%;
+  }
+  .form-details {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px 10px;
+    margin: 20px;
+  }
+  .form-details form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .form-details .people {
+    width: 100%;
+  }
+  .people div {
+    flex-direction: column;
+  }
+  .people img {
+    margin: 0;
+  }
+}
+/* start cart page**************** */
 .table {
   overflow-x: auto;
 }
@@ -1277,4 +1434,3 @@ start products  */
     padding: 20px;
   }
 }
-
